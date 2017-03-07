@@ -146,17 +146,17 @@
     <Reference Include="EPiServer.Find.UI, Version=12.3.3.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Find.Cms.12.3.3\lib\net45\EPiServer.Find.UI.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Forms, Version=4.4.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Forms.4.4.1\lib\EPiServer.Forms.dll</HintPath>
+    <Reference Include="EPiServer.Forms, Version=4.4.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Forms.4.4.2\lib\EPiServer.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Forms.Core, Version=4.4.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Forms.Core.4.4.1\lib\EPiServer.Forms.Core.dll</HintPath>
+    <Reference Include="EPiServer.Forms.Core, Version=4.4.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Forms.Core.4.4.2\lib\EPiServer.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="EPiServer.Forms.Samples, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Forms.Samples.3.3.0\lib\EPiServer.Forms.Samples.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Forms.UI, Version=4.4.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Forms.Core.4.4.1\lib\EPiServer.Forms.UI.dll</HintPath>
+    <Reference Include="EPiServer.Forms.UI, Version=4.4.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Forms.Core.4.4.2\lib\EPiServer.Forms.UI.dll</HintPath>
     </Reference>
     <Reference Include="EPiServer.Framework, Version=10.4.3.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Framework.10.4.3\lib\net45\EPiServer.Framework.dll</HintPath>
@@ -264,9 +264,8 @@
       <HintPath>..\packages\log4net.2.0.7\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MenuPin, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuPin.10.0.0\lib\net45\MenuPin.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="MenuPin, Version=10.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MenuPin.10.1.0\lib\net45\MenuPin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
@@ -806,6 +805,7 @@
     <Content Include="modules\_protected\EPiServer.Forms.Samples\Views\ElementBlocks\DateTimeRangeElementBlock.ascx" />
     <Content Include="modules\_protected\EPiServer.Forms.Samples\Views\ElementBlocks\RecaptchaElementBlock.ascx" />
     <Content Include="modules\_protected\EPiServer.Forms.Samples\Views\Shared\EditorTemplates\FormModel.ascx" />
+    <Content Include="modules\_protected\MenuPin\ClientResources\Scripts\MenuPin\MenuPinForFind.js" />
     <Content Include="modules\_protected\MenuPin\ClientResources\Scripts\MenuPin\MenuPinInit.js" />
     <Content Include="NotFound.aspx" />
     <Content Include="Scripts\jquery.signalR-2.0.3.js" />
@@ -958,10 +958,6 @@
     <Content Include="modules\POSSIBLE.RobotsTxtHandler\Views\Shared\AdminPlugin.Master" />
     <Content Include="modules\_protected\DbLocalizationProvider.AdminUI.EPiServer\web.config" />
     <Content Include="modules\_protected\DbLocalizationProvider.AdminUI.EPiServer\DbLocalizationProvider.AdminUI.EPiServer.zip" />
-    <Content Include="modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip" />
-    <Content Include="modules\_protected\EPiServer.Forms\Views\ElementBlocks\Web.config" />
-    <Content Include="modules\_protected\EPiServer.Forms\Forms.config" />
-    <Content Include="modules\_protected\EPiServer.Forms\EPiServer.Forms.zip" />
     <Content Include="modules\_protected\EPiServer.Forms.Samples\Views\ElementBlocks\Web.config" />
     <Content Include="modules\_protected\EPiServer.Forms.Samples\module.config" />
     <Content Include="modules\_protected\EPiServer.Social\web.config" />
@@ -972,7 +968,6 @@
     <Content Include="modules\_protected\MenuPin\module.config" />
     <Content Include="modules\POSSIBLE.RobotsTxtHandler\Views\Shared\AdminPlugin.Master" />
     <Content Include="modules\commands\module.config" />
-    <Content Include="modules\_protected\MenuPin\module.config" />
     <Content Include="modules\_protected\Peerius\web.config" />
     <Content Include="modules\_protected\PowerBI\web.config" />
     <Content Include="modules\TextTVChannel\module.config" />
@@ -983,6 +978,10 @@
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
     <Content Include="modules\_protected\EPiServer.Marketing.Testing\EPiServer.Marketing.Testing.zip" />
+    <Content Include="modules\_protected\EPiServer.Forms.UI\EPiServer.Forms.UI.zip" />
+    <Content Include="modules\_protected\EPiServer.Forms\Views\ElementBlocks\Web.config" />
+    <Content Include="modules\_protected\EPiServer.Forms\Forms.config" />
+    <Content Include="modules\_protected\EPiServer.Forms\EPiServer.Forms.zip" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />
