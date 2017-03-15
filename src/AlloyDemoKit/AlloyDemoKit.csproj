@@ -186,6 +186,9 @@
       <HintPath>..\packages\EPiServer.Logging.Log4Net.2.1.0\lib\net45\EPiServer.Logging.Log4Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Episerver.Marketing.Automation.Forms, Version=1.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Episerver.Marketing.Automation.Forms.1.1.5\lib\Episerver.Marketing.Automation.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="EPiServer.Marketing.KPI, Version=2.1.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Marketing.KPI.2.1.0\lib\EPiServer.Marketing.KPI.dll</HintPath>
     </Reference>
@@ -200,6 +203,12 @@
     </Reference>
     <Reference Include="EPiServer.Marketing.Testing.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Marketing.Testing.2.1.0\lib\EPiServer.Marketing.Testing.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.MarketingAutomationIntegration, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.ConnectForMarketingAutomation.2.5.0\lib\EPiServer.MarketingAutomationIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.MarketingAutomationIntegration.Marketo, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.MarketingAutomationIntegration.Marketo.1.4.1\lib\EPiServer.MarketingAutomationIntegration.Marketo.dll</HintPath>
     </Reference>
     <Reference Include="EPiServer.Packaging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Packaging.3.3.0\lib\net45\EPiServer.Packaging.dll</HintPath>
@@ -808,6 +817,7 @@
     <Content Include="modules\_protected\MenuPin\ClientResources\Scripts\MenuPin\MenuPinForFind.js" />
     <Content Include="modules\_protected\MenuPin\ClientResources\Scripts\MenuPin\MenuPinInit.js" />
     <Content Include="NotFound.aspx" />
+    <Content Include="Resources\LanguageFiles\Episerver.Marketing.Automation.Forms_EN.xml" />
     <Content Include="Scripts\jquery.signalR-2.0.3.js" />
     <Content Include="Scripts\jquery.signalR-2.0.3.min.js" />
     <Content Include="Static\gfx\block-thumbnail-parking.png" />
@@ -982,6 +992,10 @@
     <Content Include="modules\_protected\EPiServer.Forms\Views\ElementBlocks\Web.config" />
     <Content Include="modules\_protected\EPiServer.Forms\Forms.config" />
     <Content Include="modules\_protected\EPiServer.Forms\EPiServer.Forms.zip" />
+    <Content Include="modules\_protected\EPiServer.ConnectForMarketingAutomation\EPiServer.ConnectForMarketingAutomation.zip" />
+    <Content Include="modules\_protected\EPiServer.ConnectForMarketingAutomation.Marketo\module.config" />
+    <Content Include="modules\_protected\EPiServer.ConnectForMarketingAutomation.Marketo\EPiServer.MAI.Marketo.config" />
+    <Content Include="modules\_protected\EPiServer.ConnectForMarketingAutomation.Marketo\EPiServer.ConnectForMarketingAutomation.Marketo.zip" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />
