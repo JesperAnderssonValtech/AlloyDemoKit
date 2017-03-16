@@ -187,15 +187,14 @@
     </Reference>
     <Reference Include="Episerver.Marketing.Automation.Forms, Version=1.1.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Episerver.Marketing.Automation.Forms.1.1.5\lib\Episerver.Marketing.Automation.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="EPiServer.Marketing.KPI, Version=2.1.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Marketing.KPI.2.1.0\lib\EPiServer.Marketing.KPI.dll</HintPath>
     </Reference>
     <Reference Include="EPIServer.Marketing.Messaging, Version=1.2.1.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Marketing.Messaging.1.2.1\lib\EPIServer.Marketing.Messaging.dll</HintPath>
     </Reference>
-    <Reference Include="EPiServer.Marketing.Testing.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <HintPath>..\packages\EPiServer.Marketing.Testing.2.1.0\lib\EPiServer.Marketing.Testing.Core.dll</HintPath>
-    </Reference>
+
     <Reference Include="EPiServer.Marketing.Testing.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.Marketing.Testing.2.1.0\lib\EPiServer.Marketing.Testing.Core.dll</HintPath>
     </Reference>
